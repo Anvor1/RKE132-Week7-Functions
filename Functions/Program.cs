@@ -1,0 +1,28 @@
+﻿Console.WriteLine("Are you coming or leaving? (in/out):");
+string userChoice = Console.ReadLine();
+
+if(userChoice == "in")
+{
+    PrintHello();
+}
+else
+{
+    PrintGoodBye(); 
+}
+
+
+
+PrintHello();
+PrintGoodBye(); //calloutfunction
+
+
+
+static void PrintHello() //method
+{
+    Console.WriteLine("Hello, world!");
+}
+
+static void PrintGoodBye()
+{
+    Console.WriteLine("See ya later gator.");
+}
